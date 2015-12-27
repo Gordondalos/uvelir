@@ -177,8 +177,75 @@ input[type="checkbox"], input[type="checkbox"]:focus, input[type="radio"], input
 /*========================================================
                       Main Styles
 =========================================================*/
+
+
+
+
+@font-face {
+  font-family: 'MuseoSansCyrl';
+  src: url('catalog/view/theme/default/fonts/museosanscyrl-100.eot');
+  src: url('catalog/view/theme/default/fonts/museosanscyrl-100.eot?#iefix') format('embedded-opentype'),
+  url('catalog/view/theme/default/fonts/museosanscyrl-100.woff2') format('woff2'),
+  url('catalog/view/theme/default/fonts/museosanscyrl-100.woff') format('woff'),
+  url('catalog/view/theme/default/fonts/museosanscyrl-100.ttf') format('truetype'),
+  url('catalog/view/theme/default/fonts/museosanscyrl-100.svg#museo_sans_cyrl100') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MuseoSansCyrl';
+  src: url('catalog/view/theme/default/fonts/museosanscyrl-300.eot');
+  src: url('catalog/view/theme/default/fonts/museosanscyrl-300.eot?#iefix') format('embedded-opentype'),
+  url('catalog/view/theme/default/fonts/museosanscyrl-300.woff2') format('woff2'),
+  url('catalog/view/theme/default/fonts/museosanscyrl-300.woff') format('woff'),
+  url('catalog/view/theme/default/fonts/museosanscyrl-300.ttf') format('truetype'),
+  url('catalog/view/theme/default/fonts/museosanscyrl-300.svg#museo_sans_cyrl300') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MuseoSansCyrl';
+  src: url('catalog/view/theme/default/fonts/museosanscyrl-500.eot');
+  src: url('catalog/view/theme/default/fonts/museosanscyrl-500.eot?#iefix') format('embedded-opentype'),
+  url('catalog/view/theme/default/fonts/museosanscyrl-500.woff2') format('woff2'),
+  url('catalog/view/theme/default/fonts/museosanscyrl-500.woff') format('woff'),
+  url('catalog/view/theme/default/fonts/museosanscyrl-500.ttf') format('truetype'),
+  url('catalog/view/theme/default/fonts/museosanscyrl-500.svg#museo_sans_cyrl500') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MuseoSansCyrl';
+  src: url('catalog/view/theme/default/fonts/museosanscyrl-700.eot');
+  src: url('catalog/view/theme/default/fonts/museosanscyrl-700.eot?#iefix') format('embedded-opentype'),
+  url('catalog/view/theme/default/fonts/museosanscyrl-700.woff2') format('woff2'),
+  url('catalog/view/theme/default/fonts/museosanscyrl-700.woff') format('woff'),
+  url('catalog/view/theme/default/fonts/museosanscyrl-700.ttf') format('truetype'),
+  url('catalog/view/theme/default/fonts/museosanscyrl-700.svg#museo_sans_cyrl700') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body {
-  font: 700 13px/18px "Open Sans Condensed", sans-serif;
+  font: 700 13px/18px 'MuseoSansCyrl', "Open Sans Condensed", sans-serif;
   color: #bfbfbf;
   background: #4e2f45; }
 
@@ -244,7 +311,16 @@ label {
   height: 30px; }
 
 .nav-tabs {
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  background-color: whitesmoke;
+
+  border-radius: 4px;
+}
+
+
+.nav-tabs li a{
+  color: #555;
+}
 
 div.required .control-label:before {
   content: '* ';
@@ -268,7 +344,11 @@ td .price, .price b {
   .header .logo {
     text-align: center; }
     .header .logo img {
-      display: inline-block; }
+      display: inline-block;
+    max-width: 200px;
+      margin-top: 20px;
+
+    }
   .header #top-links {
     background-color: #2c2c2c;
     padding: 27px 0 34px; }
@@ -935,10 +1015,39 @@ aside .product-thumb,
 .product-list .product-thumb .caption, .product-list .product-thumb .cart-button {
   overflow: hidden; }
 
+.product-layout .product-thumb{
+  min-height: 282px;
+}
+.header .dropdown-menu{
+  padding: 25px;
+  min-width: 300px;
+  top:120%
+}
+
+a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus{
+  background-color: black;
+  border-color: black;
+
+}
+
+.btn-group button{
+  border: none;
+}
+
+
 .product-list .product-thumb .image {
   float: left;
   margin-right: 30px;
-  width: 30%; }
+  width: 30%;
+
+}
+
+.product-list .product-thumb .image:after {
+ display: table;
+  content: "";
+  clear: both;
+
+}
 
 .product-grid .product-thumb .image {
   float: none; }
@@ -1029,7 +1138,7 @@ aside .product-thumb,
 .fa-stack {
   font-size: 11px;
   line-height: 20px;
-  width: 0.9em; }
+   }
   .fa-stack i {
     color: #1e1e1e; }
 
@@ -2001,10 +2110,60 @@ aside .box .product-layout {
   .product-gallery .image-thumb img:hover {
     border-color: #1e1e1e; }
 
+
+.thumbnails{
+  padding-left: 0;
+}
+
 .image-additional {
   margin: 0;
   padding: 0;
-  list-style-type: none; }
+  list-style-type: none;
+  float: left;
+
+}
+
+.mfp-container{
+  position: fixed;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  z-index: 1000;
+  border: 1px solid #2c2c2c;
+  background-color: #fff;
+
+}
+.mfp-close{
+  right: 0;
+  font-size: 38px;
+  float: right;
+  color: #2c2c2c;
+  display: block;
+  padding: 10px;
+
+
+}
+.mfp-bottom-bar, .mfp-preloader{
+  display: none;
+}
+
+.image-additional:last-child{
+  /*float: none;*/
+}
+
+.image-additional:after{
+  display: table;
+  content: "";
+  clear: both;
+}
+
+#content{
+  margin-bottom: 50px;
+}
+
+ul,li{
+  list-style-type: none;
+}
 
 .product-reviews .review-item {
   margin-bottom: 3em; }

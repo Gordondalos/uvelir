@@ -6,3 +6,31 @@
 2015-12-27 15:14:39 - PHP Warning:  include(): Failed opening '../parts/menu.php' for inclusion (include_path='.;C:\xampp\php\PEAR') in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\header.tpl on line 79
 2015-12-27 18:40:48 - PHP Notice:  Undefined variable: telephone in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\footer.tpl on line 49
 2015-12-27 18:47:24 - PHP Notice:  Undefined variable: telephone in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\footer.tpl on line 49
+2015-12-27 20:00:21 - PHP Notice:  Undefined variable: text_success in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\parts\menu.php on line 27
+2015-12-27 20:00:45 - PHP Notice:  Undefined variable: text_cart in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\parts\menu.php on line 27
+2015-12-27 20:04:49 - PHP Notice:  Undefined variable: heading_title in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\parts\menu.php on line 27
+2015-12-27 20:05:13 - PHP Notice:  Undefined variable: text_cart in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\parts\menu.php on line 27
+2015-12-27 20:05:46 - PHP Notice:  Undefined variable: text_basket in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\parts\menu.php on line 27
+2015-12-27 20:08:38 - PHP Notice:  Undefined variable: text_about_as in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\parts\menu.php on line 37
+2015-12-27 20:12:44 - PHP Notice:  Undefined variable: text_affiliate in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\parts\menu.php on line 58
+2015-12-27 20:13:23 - PHP Notice:  Undefined variable: text_affiliate in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\parts\menu.php on line 58
+2015-12-27 20:13:44 - PHP Notice:  Undefined variable: text_report_affiliate in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\parts\menu.php on line 58
+2015-12-27 20:14:53 - PHP Notice:  Undefined variable: text_report_affiliate in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\parts\menu.php on line 58
+2015-12-27 20:15:07 - PHP Notice:  Undefined variable: text_report_affiliate in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\parts\menu.php on line 58
+2015-12-27 20:15:11 - PHP Notice:  Undefined variable: text_report_affiliate in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\parts\menu.php on line 58
+2015-12-27 20:15:55 - PHP Notice:  Undefined variable: text_affiliate in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\parts\menu.php on line 58
+2015-12-27 20:16:01 - PHP Notice:  Undefined variable: text_affiliate in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\parts\menu.php on line 58
+2015-12-27 20:17:00 - PHP Notice:  Undefined variable: text_manufacturer in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\parts\menu.php on line 51
+2015-12-27 20:17:00 - PHP Notice:  Undefined variable: text_manufacturer in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\parts\menu.php on line 52
+2015-12-27 20:17:06 - PHP Notice:  Undefined variable: text_manufacturer in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\parts\menu.php on line 51
+2015-12-27 20:19:02 - PHP Notice:  Undefined variable: heading_title in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\parts\menu.php on line 43
+2015-12-27 20:38:09 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\parts\menu.tpl on line 5
+2015-12-27 20:39:12 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\parts\menu.tpl on line 5
+2015-12-27 20:39:17 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\parts\menu.tpl on line 5
+2015-12-27 20:39:41 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\parts\menu.tpl on line 5
+2015-12-27 20:40:44 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\parts\menu.tpl on line 5
+2015-12-27 20:40:51 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\parts\menu.tpl on line 5
+2015-12-27 20:40:56 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\parts\menu.tpl on line 5
+2015-12-27 20:41:32 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\parts\menu.tpl on line 5
+2015-12-27 20:42:47 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\parts\menu.tpl on line 5
+2015-12-27 20:43:18 - PHP Warning:  preg_match(): Unknown modifier '/' in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\parts\menu.tpl on line 5

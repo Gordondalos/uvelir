@@ -1,6 +1,8 @@
 
-
 <script src="catalog/view/theme/default/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="catalog/view/theme/default/js/jquery.magnific-popup.min.js" type="text/javascript"></script>
+
+
 <script src="catalog/view/theme/default/js/common.js" type="text/javascript"></script>
 <script src="catalog/view/theme/default/js/owl.carousel.min.js" type="text/javascript"></script>
 <script src="catalog/view/theme/default/js/cherry-fixed-parallax.js" type="text/javascript"></script>

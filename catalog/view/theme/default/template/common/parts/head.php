@@ -22,6 +22,12 @@
           media="screen"/>
     <link href="./css/owl.transitions.css" type="text/css" rel="stylesheet"
           media="screen"/>
+
+
+
+
+
+
     <!--[if lt IE 9]>
     <div style='clear:both;height:59px;padding:0 15px 0 15px;position:relative;z-index:10000;text-align:center;'>
         <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img
@@ -31,6 +37,12 @@
         </a>
     </div><![endif]-->
     <script src="./js/jquery-2.1.1.min.js" type="text/javascript"></script>
+
+
+
+
+
+    <script src="catalog/view/theme/default/js/bootstrap-datetimepicker.min.js" type="text/javascript"></script>
     <link href="./css/stylesheet.css" rel="stylesheet">
 </head>
 

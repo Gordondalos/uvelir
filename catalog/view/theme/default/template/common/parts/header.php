@@ -1,33 +1,3 @@
-<!---->
-<!--<header>-->
-<!--    <div class="container">-->
-<!--        <div class="row">-->
-<!--            <div class="col-sm-4">-->
-<!--                <div id="logo">-->
-<!--                    --><?php //if ($logo) { ?>
-<!--                        --><?php //if ($home == $og_url) { ?>
-<!--                            <img src="--><?php //echo $logo; ?><!--" title="--><?php //echo $name; ?><!--"-->
-<!--                                 alt="--><?php //echo $name; ?><!-- class=" img-responsive" />-->
-<!--                        --><?php //} else { ?>
-<!--                            <a href="--><?php //echo $home; ?><!--"><img src="--><?php //echo $logo; ?><!--" title="--><?php //echo $name; ?><!--"-->
-<!--                                                                alt="--><?php //echo $name; ?><!--" class="img-responsive"/></a>-->
-<!--                        --><?php //} ?>
-<!--                    --><?php //} else { ?>
-<!--                        <h1><a href="--><?php //echo $home; ?><!--">--><?php //echo $name; ?><!--</a></h1>-->
-<!--                    --><?php //} ?>
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-sm-5">--><?php //echo $search; ?>
-<!--            </div>-->
-<!--            <div class="col-sm-3">--><?php //echo $cart; ?><!--</div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</header>-->
-<!---->
-
-
-
-
 
 <header class="header">
     <nav id="top-links" class="nav">
@@ -89,7 +59,6 @@
     </nav>
 
 
-
     <div class="container">
         <div class="header_top">
             <div id="logo" class="logo">
@@ -114,61 +83,6 @@
             </div>
         </div>
     </div>
-
-<!--    <div class="container">-->
-<!--        <div id="menu-gadget" class="menu-gadget">-->
-<!--            <div id="menu-icon" class="menu-icon">Categories</div>-->
-<!--            <ul class="menu">-->
-<!--                <li>-->
-<!--                    <a href="http://livedemo00.template-help.com/opencart_53968/index.php?route=product/category&amp;path=33">Bracelets </a>-->
-<!--                </li>-->
-<!--                <li>-->
-<!--                    <a href="http://livedemo00.template-help.com/opencart_53968/index.php?route=product/category&amp;path=25">Earrings</a>-->
-<!--                    <ul>-->
-<!--                        <li>-->
-<!--                            <a href="http://livedemo00.template-help.com/opencart_53968/index.php?route=product/category&amp;path=32">Aenean-->
-<!--                                viverra</a>-->
-<!--                        </li>-->
-<!--                        <li>-->
-<!--                            <a href="http://livedemo00.template-help.com/opencart_53968/index.php?route=product/category&amp;path=31">Nullam-->
-<!--                                iaculis</a>-->
-<!--                        </li>-->
-<!--                        <li>-->
-<!--                            <a href="http://livedemo00.template-help.com/opencart_53968/index.php?route=product/category&amp;path=30">Phasellus-->
-<!--                                vel</a>-->
-<!--                        </li>-->
-<!--                        <li>-->
-<!--                            <a href="http://livedemo00.template-help.com/opencart_53968/index.php?route=product/category&amp;path=28"-->
-<!--                               class="parent">Praesent imperdiet</a>-->
-<!--                            <ul>-->
-<!--                                <li>-->
-<!--                                    <a href="http://livedemo00.template-help.com/opencart_53968/index.php?route=product/category&amp;path=36">Aliquam-->
-<!--                                        eget</a>-->
-<!--                                </li>-->
-<!--                                <li>-->
-<!--                                    <a href="http://livedemo00.template-help.com/opencart_53968/index.php?route=product/category&amp;path=35">Lorem-->
-<!--                                        ipsum</a>-->
-<!--                                </li>-->
-<!--                            </ul>-->
-<!--                        </li>-->
-<!--                        <li>-->
-<!--                            <a href="http://livedemo00.template-help.com/opencart_53968/index.php?route=product/category&amp;path=29">Praesent-->
-<!--                                sodales</a>-->
-<!--                        </li>-->
-<!--                    </ul>-->
-<!--                </li>-->
-<!--                <li>-->
-<!--                    <a href="http://livedemo00.template-help.com/opencart_53968/index.php?route=product/category&amp;path=20">Necklaces </a>-->
-<!--                </li>-->
-<!--                <li>-->
-<!--                    <a href="http://livedemo00.template-help.com/opencart_53968/index.php?route=product/category&amp;path=18">Rings</a>-->
-<!--                </li>-->
-<!--                <li>-->
-<!--                    <a href="http://livedemo00.template-help.com/opencart_53968/index.php?route=product/category&amp;path=34">Sets </a>-->
-<!--                </li>-->
-<!--            </ul>-->
-<!--        </div>-->
-<!--    </div>-->
 
 
 <?php include "menu.tpl"?>
