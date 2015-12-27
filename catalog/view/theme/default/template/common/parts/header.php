@@ -14,9 +14,15 @@
                 <?php echo $language; ?>
             </div>
             <ul class="list-inline">
-                <li class="first">
-                    <a href="<?php echo $home; ?>"><i
-                            class="fa fa-home"></i><span><?php echo $name?></span>
+<!--                <li class="first">-->
+<!--                    <a href="--><?php //echo $home; ?><!--"><i-->
+<!--                            class="fa fa-home"></i><span>--><?php //echo $name?><!--</span>-->
+<!--                    </a>-->
+<!--                </li>-->
+                <li>
+                    <a href="<?php echo $wishlist; ?>" id="wishlist-total" title="<?php echo $text_wishlist; ?>">
+                        <i  class="fa fa-heart"></i>
+                        <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_wishlist; ?></span>
                     </a>
                 </li>
                 <li class="dropdown"><a href="<?php echo $account; ?>" title="<?php echo $text_account; ?>"
@@ -36,12 +42,7 @@
                         <?php } ?>
                     </ul>
                 </li>
-                <li>
-                    <a href="<?php echo $wishlist; ?>" id="wishlist-total" title="<?php echo $text_wishlist; ?>">
-                        <i  class="fa fa-heart"></i>
-                        <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_wishlist; ?></span>
-                    </a>
-                </li>
+
                 <li>
                     <a href="<?php echo $shopping_cart; ?>" title="<?php echo $text_shopping_cart; ?>">
                         <i class="fa fa-shopping-cart"></i>
