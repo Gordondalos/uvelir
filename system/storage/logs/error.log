@@ -1,0 +1,6 @@
+2015-12-27 15:12:54 - PHP Warning:  include(../../parts/menu.php): failed to open stream: No such file or directory in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\header.tpl on line 79
+2015-12-27 15:12:54 - PHP Warning:  include(): Failed opening '../../parts/menu.php' for inclusion (include_path='.;C:\xampp\php\PEAR') in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\header.tpl on line 79
+2015-12-27 15:13:23 - PHP Warning:  include(./parts/menu.php): failed to open stream: No such file or directory in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\header.tpl on line 79
+2015-12-27 15:13:23 - PHP Warning:  include(): Failed opening './parts/menu.php' for inclusion (include_path='.;C:\xampp\php\PEAR') in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\header.tpl on line 79
+2015-12-27 15:14:39 - PHP Warning:  include(../parts/menu.php): failed to open stream: No such file or directory in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\header.tpl on line 79
+2015-12-27 15:14:39 - PHP Warning:  include(): Failed opening '../parts/menu.php' for inclusion (include_path='.;C:\xampp\php\PEAR') in C:\xampp\htdocs\uvelir\catalog\view\theme\default\template\common\header.tpl on line 79
