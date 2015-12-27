@@ -33,8 +33,9 @@
     <nav id="top-links" class="nav">
         <div class="container">
             <div id="search" class="search">
-                <input type="text" name="search" value=""/>
-                <button type="button" class="button-search"><span class="hidden">Search</span></button>
+                <?php echo $search; ?>
+
+
             </div>
             <div class="box-currency">
                 <?php echo $currency; ?>

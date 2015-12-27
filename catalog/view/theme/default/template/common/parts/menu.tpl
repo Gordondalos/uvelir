@@ -18,7 +18,7 @@
                                                 <?php foreach ($children as $child) { ?>
                                                     <li>
                                                         <a href="<?php echo $child['href']; ?>"><?php echo $child['name']; ?></a>
-                                                        
+
                                                     </li>
                                                 <?php } ?>
                                             </ul>
