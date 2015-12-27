@@ -2466,6 +2466,11 @@ footer {
   footer h5 {
     font-size: 19px; } }
 @media (max-width: 767px) {
+  .box-cart{
+    top: -203px;
+    z-index: 200;
+  }
+
   footer > .container {
     display: none; }
 
