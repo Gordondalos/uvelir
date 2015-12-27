@@ -35,7 +35,6 @@
             <div id="search" class="search">
                 <?php echo $search; ?>
 
-
             </div>
             <div class="box-currency">
                 <?php echo $currency; ?>

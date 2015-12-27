@@ -2426,9 +2426,22 @@ footer {
 
 .socials {
   list-style-type: none;
-  float: right;
-  padding: 0;
-  margin-right: 23%; }
+  display: block;
+  text-align: center;
+  margin:0 auto 50px;
+
+}
+
+.phone{
+  text-align: center;
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+.phone li{
+  line-height: 40px;
+  list-style-type: none;
+}
+
   .socials li {
     display: inline-block;
     width: 55px;

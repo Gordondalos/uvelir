@@ -76,8 +76,6 @@
 
 <body class="common-home">
 
-<?php include"parts/menu.php"?>
-
 
 <div id="page">
     <div class="shadow"></div>
